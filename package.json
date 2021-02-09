@@ -6,11 +6,12 @@
   "scripts": {
     "server": "nodemon server.js",
     "start": "PROD=true node server.js",
-    "postinstall": "cd ./client && yarn"
+    "postinstall": "cd ./client && npm"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "node": "^15.8.0",
     "nodemon": "^2.0.7",
     "socket.io": "^2.3.0"
   }
